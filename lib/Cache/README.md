@@ -1,0 +1,1 @@
+Make sure this folder is 777 writable and delete this file.

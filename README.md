@@ -35,3 +35,19 @@ $ClickTaleBottom
 
 ###Make folders writable
 Make sure that the folders "Cache" and "Logs" inside "/clicktale/lib/ are writable (chmod 777).
+
+##Testing and debugging you installation
+
+Test your installation is set up correctly by going to the URL http://youdomain.com/clicktale/lib/Install/index.php
+
+Correct any items that show up with red boxes.
+
+##Debug Mode
+add ?ct=debug to bring up a debugging window.
+
+##Enable/Disable ClickTale for your IP address
+If you would rather your hits on pages are not logged by ClickTale:
+
+* Add ?ct=disable to any url where ClickTale is present.
+* To enable again add ?ct=enable
+* YOu can conbine actions with debugging e.g. ?ct=disable,debug etc
