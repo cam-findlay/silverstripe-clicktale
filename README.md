@@ -1,7 +1,7 @@
 # SilverStripe ClickTale Module
 
 The ClickTale modules adds the ability to do deep web analysis and screen recording on any page on your website.
-YOu can toggle tracking on and off each page in the ClickTale tab.
+You can toggle tracking on and off each page in the ClickTale tab.
 
 For more information about the ClickTale Integration Module see (http://wiki.clicktale.com/Article/PHP_integration_module)
 
@@ -18,6 +18,8 @@ For more information about the ClickTale Integration Module see (http://wiki.cli
 *  [Issue Tracker](https://github.com/cam-findlay/silverstripe-clicktale/issues)
 
 ##Usage
+
+Make sure to name your module folder "clicktale" (all lowercase).
 
 ###Add to your templates
 Add the following to the very top of your *.ss template:
