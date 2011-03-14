@@ -34,4 +34,4 @@ $ClickTaleBottom
 <% end_if %>
 
 ###Make folders writable
-Make sure that the folder "Cache" which is generated inside "/clicktale/lib/ is writable.
+Make sure that the folders "Cache" and "Logs" inside "/clicktale/lib/ are writable (chmod 777).
